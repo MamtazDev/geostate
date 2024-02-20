@@ -1,0 +1,530 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Real Estate Landing page
+ * @author      - Ashiqur Rahman
+ * @created_by  - Ashiqur Rahman
+ * @created_at  - 17022024
+ * @modified_by -
+ */
+
+/* fonts import */
+
+/* fonts import -END */
+
+/* reset, root */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a,
+button,
+.btn,
+input,
+select,
+textarea,
+.form-control,
+.form-select {
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+//   font-family: "Inter", sans-serif;
+//  font-family: "Syne", sans-serif;
+/*color variables*/
+:root {
+  --white_f6: #F6F6F6;
+  --black_33: #333;
+  --black_17: #171717;
+  --gray_b4: #B4B4B4;
+  --gray_60: #606060;
+  --gray_66: #666;
+  --orange_90: #F90;
+}
+
+/* reset, root /-end */
+
+/* container resize /-start */
+.container {
+  @media (min-width: 1440px) {
+    max-width: 1422px;
+  }
+}
+
+/* container resize /-end */
+
+/* helper , base classes */
+
+.f_syne {
+  font-family: "Syne", sans-serif !important;
+}
+
+/* text-color /-start */
+.text_clr_black_33 {
+  color: var(--black_33);
+}
+
+.text_clr_black_17 {
+  color: var(--black_17);
+}
+
+.text_clr_gray_b4 {
+  color: var(--gray_b4);
+}
+
+.text_clr_orange_90 {
+  color: var(--orange_90);
+}
+
+.text_clr_gray_60 {
+  color: var(--gray_60);
+}
+
+.text_clr_gray_66 {
+  color: var(--gray_66);
+}
+
+.text_clr_white_f6 {
+  color: var(--white_f6);
+}
+
+/* text-color /-end */
+
+/* bg-color /-start */
+.bg_clr_black_33 {
+  background-color: var(--black_33);
+}
+
+.bg_clr_black_17 {
+  background-color: var(--black_17);
+}
+
+.bg_clr_gray_b4 {
+  background-color: var(--gray_b4);
+}
+
+.bg_clr_gray_60 {
+  background-color: var(--gray_60);
+}
+
+.bg_clr_orange_90 {
+  background-color: var(--orange_90);
+}
+
+.bg_clr_white_f6 {
+  background-color: var(--white_f6);
+}
+
+/* bg-color /-end */
+
+/* font-size /-start */
+.fs_14 {
+  font-size: 14px;
+  line-height: 22px;
+
+  @media(max-width: 370px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.fs_18 {
+  font-size: 18px;
+  line-height: 28px;
+
+  @media(max-width: 1400px) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.fs_40 {
+  font-size: 40px;
+  line-height: 50px;
+
+  @media(max-width: 550px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.fs_48 {
+  font-size: 48px;
+  line-height: 58px;
+
+  @media(max-width: 550px) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  @media(max-width: 370px) {
+    font-size: 28px;
+    line-height: 38x;
+  }
+
+}
+
+.fs_80 {
+  font-size: 80px;
+  line-height: 90px;
+
+  @media(max-width: 1110px) {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  @media(max-width: 920px) {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  @media(max-width: 768px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  @media(max-width: 550px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  @media(max-width: 370px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* font-size /-end */
+
+/* font-weight /-start */
+.fw_medium {
+  font-weight: 500;
+}
+
+.fw_semi_bold {
+  font-weight: 600;
+}
+
+/* font-weight /-end */
+
+/* line height */
+.lh_31 {
+  line-height: 31px;
+}
+
+/* line height  -/ end */
+
+/* box-shadow /-start */
+.box_shadow {
+  box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1);
+}
+
+.box_shadow2 {
+  box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* box-shadow /-end */
+
+/* border-radius /-start */
+.radius_10 {
+  border-radius: 10px;
+}
+
+.radius_16 {
+  border-radius: 16px;
+}
+
+/* border-radius /-end */
+
+/* margin */
+.mb_47 {
+  margin-bottom: 47px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 37px;
+  }
+
+  @media(max-width: 550px) {
+    margin-bottom: 27px;
+  }
+}
+
+.mb_62 {
+  margin-bottom: 62px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 52px;
+  }
+
+  @media(max-width: 550px) {
+    margin-bottom: 42px;
+  }
+}
+
+/* margin -/end */
+
+/* section padding */
+.section_padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* section padding -/end */
+
+/* common button */
+.cmn_btn {
+  width: 212px;
+  padding: 15px 0;
+  border-radius: 100.112px;
+  border: 2px solid #000;
+  background-color: white;
+  transition: all linear 0.2s;
+
+  &:hover {
+    background-color: #000;
+    color: white !important;
+  }
+}
+
+/* common button -/end */
+
+/* helper , base classes  - END*/
+
+/* main css start */
+
+// HEADER CODE START
+header {
+  padding: 12px 0;
+  border-bottom: 1px solid (rgba(238, 238, 238, 0.93));
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        margin-right: 52px;
+
+        @media(max-width: 1400px) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  .btn_header {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    transition: all linear 0.2s;
+
+    &:hover {
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #000;
+    }
+  }
+}
+
+// HEADER CODE -/END
+
+// MAIN HERO START
+#hero_wrapper {
+  padding: 65px 0 90px;
+  background-image: url(../img/hero-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  @media(max-width: 1200px) {
+    background-position: right bottom -160px;
+  }
+
+  .hero_content {
+    .search_box {
+      padding: 38px 52px;
+      border-radius: 32px;
+      background: #FFF;
+      box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.05);
+
+      .serach_input_wrapper {
+
+        .input_item {
+
+          #location,
+          #type,
+          #price {
+            width: 228px !important;
+            padding: 21px 24px;
+            border-radius: 100px;
+            border: 2px solid #D6D6D6;
+            background-color: #FFF;
+            background-image: url(../img/location-icon.svg);
+            background-repeat: no-repeat;
+            background-position: right 24px center;
+
+            &:focus {
+              border: 2px solid var(--orange_90);
+            }
+          }
+
+          #type {
+            background-image: url(../img/home-icon.svg);
+          }
+
+          #price {
+            background-image: url(../img/price-icon.svg);
+          }
+        }
+
+        .searchnow_btn {
+          padding: 19px 36px;
+          border: 2px solid transparent;
+          background-color: var(--orange_90);
+          border-radius: 100px;
+          transition: all linear 0.2s;
+
+          &:hover {
+            background-color: white;
+            border: 2px solid var(--orange_90);
+          }
+        }
+      }
+    }
+  }
+
+
+
+}
+
+#dicover {
+  .ds_wrapper {
+    border: 1px solid #eeeeeeed;
+    border-radius: 13.015px;
+    max-width: 333px;
+    width: 100%;
+
+    .ds_img {
+      .price_btn {
+        padding: 4px 24px;
+        top: 24px;
+        left: 24px;
+        border-radius: 80px;
+        background: #222430;
+        border-color: transparent;
+        transition: all linear 0.2s;
+      }
+    }
+
+    .ds_content {
+      padding: 24px;
+    }
+
+    transition: all linear 0.2s;
+
+    &:hover {
+      box-shadow: 0px 80px 120px 0px rgba(51, 51, 51, 0.10);
+      border-bottom: 1px solid #F90;
+      border-radius: 13.015px;
+
+      .price_btn {
+        background-color: var(--orange_90);
+        color: #000 !important;
+      }
+
+      .location_icon {
+        display: none;
+      }
+
+      .location_icon_two {
+        display: flex !important;
+      }
+    }
+  }
+}
+
+#whoweare {
+  .who_we_are_content {
+    .section_tag {
+      p {
+        background-image: url(../img/border-left.svg);
+        background-repeat: no-repeat;
+        padding: 15px 0;
+        padding-left: 15px;
+        background-position: left center;
+      }
+    }
+  }
+}
+
+#buyproperty {
+  .buy_properties_card {
+    padding: 48px 18px;
+    border-radius: 21px;
+    border: 2px solid #eeeeeeed;
+    transition: all linear 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 2px solid var(--orange_90);
+      background: #FFF;
+      box-shadow: 0px 80.09px 120.135px 0px rgba(51, 51, 51, 0.10);
+    }
+
+    .bpc_number {
+      h2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+
+  }
+}
+
+
+
+// MAIN HERO START -/EMD
+
+// FOOTER START
+footer {
+  padding: 70px 0;
+
+  #footer_email {
+    height: 54px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #EBEBEB;
+    background-image: url(../img/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+}
+
+// FOOTER END
+
+
+/* main css start -/ end */

@@ -1,0 +1,100 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Project Name
+ * @author      - Ashiqur Rahman
+ * @created_by  - Ashiqur Rahman
+ * @created_at  - 
+ * @modified_by -
+ */
+/* fonts import */
+/* fonts import -END */
+/* reset, root */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+a:focus,
+button:focus,
+.btn:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+  outline: none !important; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff; }
+
+/*color variables*/
+:root {
+  --aliceblue: #e7efff; }
+
+/* reset, root /-end */
+/* container resize /-start */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1110px; } }
+
+/* container resize /-end */
+/* helper , base classes */
+/* text-color /-start */
+.text-clr-aliceblue {
+  color: var(--aliceblue); }
+
+/* text-color /-end */
+/* bg-color /-start */
+.bg-clr-aliceblue {
+  background-color: var(--aliceblue); }
+
+/* bg-color /-end */
+/* font-size /-start */
+.fs-14 {
+  font-size: 14px;
+  line-height: 22px; }
+
+/* font-size /-end */
+/* font-weight /-start */
+.fw-medium {
+  font-weight: 500; }
+
+.fw-semi-bold {
+  font-weight: 600; }
+
+/* font-weight /-end */
+/* box-shadow /-start */
+.box-shadow {
+  box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1); }
+
+.box-shadow2 {
+  box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.05); }
+
+/* box-shadow /-end */
+/* border-radius /-start */
+.radius-10 {
+  border-radius: 10px; }
+
+.radius-16 {
+  border-radius: 16px; }
+
+/* border-radius /-end */
+/* helper , base classes  - END*/
+
+/*# sourceMappingURL=style.css.map */
