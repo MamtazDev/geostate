@@ -2,7 +2,7 @@
 <html lang="en-US" class="no-js">
   <head>
     <meta charset="UTF-8" />
-    <title>Real Estate Landing page</title>
+    <title>Go Estate</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="misapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Syne:wght@400..800&display=swap"
       rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
@@ -33,9 +33,17 @@
 
     <!-- Libraries Stylesheet -->
     <link href="assets/lib/animate/animate.css" rel="stylesheet" />
+
+    <!-- slider -->
     <link
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet" />
+
+    <!-- slider -/end -->
 
     <!-- Bootstrap Stylesheet -->
     <link
@@ -204,8 +212,8 @@
               </button>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-3">
+          <div class="f-carousel" id="myCarousel">
+            <div class="f-carousel__slide">
               <div class="ds_wrapper mb-4 mb-lg-0">
                 <div class="ds_img position-relative">
                   <img
@@ -243,7 +251,597 @@
                 </div>
               </div>
             </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_2.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qiri Minimalist House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_3.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qanan Luxury <br />
+                      House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_4.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Tingah Elegant House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none"
+                      >Ataz Standard House</a
+                    >
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_2.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qiri Minimalist House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_3.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qanan Luxury <br />
+                      House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_4.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Tingah Elegant House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none"
+                      >Ataz Standard House</a
+                    >
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_2.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qiri Minimalist House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_3.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qanan Luxury <br />
+                      House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_4.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Tingah Elegant House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none"
+                      >Ataz Standard House</a
+                    >
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_2.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qiri Minimalist House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_3.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Qanan Luxury <br />
+                      House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="f-carousel__slide">
+              <div class="ds_wrapper mb-4 mb-lg-0">
+                <div class="ds_img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/slider_img_4.png"
+                    alt="slider_img" />
+                  <button
+                    class="price_btn position-absolute fs-6 fw-medium text-white">
+                    $2,800
+                  </button>
+                </div>
+                <div class="ds_content">
+                  <div class="ds_content_title mb-4">
+                    <a
+                      href="#details"
+                      class="fs-3 fw_semi_bold text_clr_black_33 text-decoration-none">
+                      Tingah Elegant House
+                    </a>
+                  </div>
+                  <div class="ds_content_location">
+                    <a
+                      href="#location"
+                      class="d-flex align-items-center gap-2 fs_18 fw-normal text-decoration-none text_clr_gray_66">
+                      <img
+                        class="location_icon"
+                        src="assets/img/location-black.svg"
+                        alt="icon" />
+                      <img
+                        class="location_icon_two d-none"
+                        src="assets/img/location-orange.svg"
+                        alt="icon" />
+                      Pluto Street, Indonesia
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row"></div>
         </div>
       </section>
       <!-- discover -/end -->
@@ -432,7 +1030,77 @@
               </div>
 
               <div class="why_choose_item_wrapper">
-                <div class="why_choose_items"></div>
+                <div
+                  class="why_choose_items p-4 d-flex align-items-baseline gap-4 bg-white">
+                  <div class="wcil">
+                    <img
+                      class="wcil_icon_one"
+                      src="assets/img/mark.svg"
+                      alt="icon" />
+                    <img
+                      class="d-none wcil_icon_two"
+                      src="assets/img/mark-orange.svg"
+                      alt="icon" />
+                  </div>
+                  <div class="wcir">
+                    <h2 class="fs-3 f_syne fw-bold text_clr_black_33">
+                      Comfortable Home Design
+                    </h2>
+                    <p class="fs-6 fw-normal text_clr_gray_60">
+                      As you step into your new abode, you are greeted by an
+                      open and inviting living space. Soft, neutral tones
+                      dominate the interior,
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="why_choose_items p-4 d-flex align-items-baseline gap-4 bg-white">
+                  <div class="wcil">
+                    <img
+                      class="wcil_icon_one"
+                      src="assets/img/mark.svg"
+                      alt="icon" />
+                    <img
+                      class="d-none wcil_icon_two"
+                      src="assets/img/mark-orange.svg"
+                      alt="icon" />
+                  </div>
+                  <div class="wcir">
+                    <h2 class="fs-3 f_syne fw-bold text_clr_black_33">
+                      Professional Developer
+                    </h2>
+                    <p class="fs-6 fw-normal text_clr_gray_60">
+                      Dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="why_choose_items p-4 d-flex align-items-baseline gap-4 bg-white">
+                  <div class="wcil">
+                    <img
+                      class="wcil_icon_one"
+                      src="assets/img/mark.svg"
+                      alt="icon" />
+                    <img
+                      class="d-none wcil_icon_two"
+                      src="assets/img/mark-orange.svg"
+                      alt="icon" />
+                  </div>
+                  <div class="wcir">
+                    <h2 class="fs-3 f_syne fw-bold text_clr_black_33">
+                      Fast Response
+                    </h2>
+                    <p class="fs-6 fw-normal text_clr_gray_60">
+                      Dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -448,6 +1116,471 @@
         </div>
       </section>
       <!-- why choose us -/end -->
+
+      <!-- meet agent -->
+      <section id="meetagent" class="section_padding">
+        <div class="container">
+          <div class="section_heading mb-5 text-center">
+            <h2 class="text-black fs_40 f_syne mb-4 fw-bold">
+              Meet our agents at <br class="d-lg-block d-none" />
+              your service
+            </h2>
+            <p class="text_clr_gray_60 fs_18 fw-normal">
+              We provide a complete service for the sale, purchase or rental of
+              <br />
+              real estate. We provide a complete We provide a complete service.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="meetagent_item_wrapper mb-4 mb-lg-0">
+                <div class="meetagent_item text-center">
+                  <div class="mg_img">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/agent-one.png"
+                      alt="agent-img" />
+                  </div>
+                  <div class="mg_description">
+                    <h3 class="f_mulish fs-4 text_clr_blue_4d">Reef Parker</h3>
+                    <p class="f_mulish fs_18 fw-normal text_clr_gray_60 mb-4">
+                      Real Estate Agent
+                    </p>
+                    <ul
+                      class="mg_social_media_icon p-0 d-flex align-items-center justify-content-center gap-4">
+                      <li>
+                        <a href="#facebook">
+                          <img src="assets/img/instagram-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#linkdin">
+                          <img src="assets/img/linkdin-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tiktok">
+                          <img src="assets/img/tiktok.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#twitter">
+                          <img src="assets/img/twitter-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="meetagent_item_wrapper mb-4 mb-lg-0">
+                <div class="meetagent_item text-center">
+                  <div class="mg_img">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/agent-two.png"
+                      alt="agent-img" />
+                  </div>
+                  <div class="mg_description">
+                    <h3 class="f_mulish fs-4 text_clr_blue_4d">
+                      Emilli Wonder
+                    </h3>
+                    <p class="f_mulish fs_18 fw-normal text_clr_gray_60 mb-4">
+                      Real Estate Agent
+                    </p>
+                    <ul
+                      class="mg_social_media_icon p-0 d-flex align-items-center justify-content-center gap-4">
+                      <li>
+                        <a href="#facebook">
+                          <img src="assets/img/instagram-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#linkdin">
+                          <img src="assets/img/linkdin-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tiktok">
+                          <img src="assets/img/tiktok.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#twitter">
+                          <img src="assets/img/twitter-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="meetagent_item_wrapper mb-4 mb-lg-0">
+                <div class="meetagent_item text-center">
+                  <div class="mg_img">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/agent-three.png"
+                      alt="agent-img" />
+                  </div>
+                  <div class="mg_description">
+                    <h3 class="f_mulish fs-4 text_clr_blue_4d">Jon Doe</h3>
+                    <p class="f_mulish fs_18 fw-normal text_clr_gray_60 mb-4">
+                      Real Estate Agent
+                    </p>
+                    <ul
+                      class="mg_social_media_icon p-0 d-flex align-items-center justify-content-center gap-4">
+                      <li>
+                        <a href="#facebook">
+                          <img src="assets/img/instagram-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#linkdin">
+                          <img src="assets/img/linkdin-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tiktok">
+                          <img src="assets/img/tiktok.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#twitter">
+                          <img src="assets/img/twitter-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="meetagent_item_wrapper mb-4 mb-lg-0">
+                <div class="meetagent_item text-center">
+                  <div class="mg_img">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/agent-four.png"
+                      alt="agent-img" />
+                  </div>
+                  <div class="mg_description">
+                    <h3 class="f_mulish fs-4 text_clr_blue_4d">
+                      Petter Parker
+                    </h3>
+                    <p class="f_mulish fs_18 fw-normal text_clr_gray_60 mb-4">
+                      Real Estate Agent
+                    </p>
+                    <ul
+                      class="mg_social_media_icon p-0 d-flex align-items-center justify-content-center gap-4">
+                      <li>
+                        <a href="#facebook">
+                          <img src="assets/img/instagram-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#linkdin">
+                          <img src="assets/img/linkdin-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tiktok">
+                          <img src="assets/img/tiktok.svg" alt="icon" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#twitter">
+                          <img src="assets/img/twitter-icon.svg" alt="icon" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- meet agent -/end -->
+
+      <!-- app -->
+      <section id="gostateapp" class="section_padding bg_clr_white_f6">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="gostateapp_img mb-4 mb-lg-0">
+                <img class="img-fluid" src="assets/img/apps.png" alt="go-app" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="section_heading mb-5">
+                <h2 class="text-black fs_40 f_syne mb-4 fw-bold">
+                  The best home search starts with the GoEstate app
+                </h2>
+                <p class="text_clr_gray_60 fs_18 fw-normal">
+                  With 3D walkthroughs, 40 filters to narrow down your search,
+                  and monthly payment calculators-our app makes it easy to find
+                  the right home from anywhere.
+                </p>
+              </div>
+              <ul class="p-0 d-flex flex-wrap align-items-center gap-4">
+                <li>
+                  <a href="#appstore">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/appstore.png"
+                      alt="store-img" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#appstore">
+                    <img
+                      class="img-fluid"
+                      src="assets/img/googleplay.png"
+                      alt="store-img" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- app -/end -->
+
+      <!-- happy customer -->
+      <section id="happycustomer" class="section_padding pb-0">
+        <div class="container">
+          <div
+            class="section_heading d-flex justify-content-between align-items-center">
+            <div class="hc_shl">
+              <h2 class="text-black fs_40 f_syne mb-4 fw-bold">
+                What Says from Our <br class="d-lg-block d-none" />
+                Happy Customers
+              </h2>
+            </div>
+            <div class="hc_shr">
+              <div
+                class="hc_btn_wrapper d-flex align-items-center gap-4 justify-content-end">
+                <button
+                  class="hc_btn d-flex align-items-center justify-content-center">
+                  <img
+                    class="hc_btn_one"
+                    src="assets/img/arrow_hc-left-active.svg"
+                    alt="icon" />
+                  <img
+                    class="hc_btn_two d-none"
+                    src="assets/img/arrow_hc-left.svg"
+                    alt="icon" />
+                </button>
+                <button
+                  class="hc_btn d-flex align-items-center justify-content-center">
+                  <img
+                    class="hc_btn_one"
+                    src="assets/img/arrow_hc-right.svg"
+                    alt="icon" />
+                  <img
+                    class="hc_btn_two d-none"
+                    src="assets/img/arrow_hc_right_active.svg"
+                    alt="icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="happycustomer_slider_wrapper d-flex align-items-center gap-4">
+            <div class="splide" aria-labelledby="carousel-heading">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="hc_slider_item text-center">
+                      <p class="text_clr_gray_60 f_syne fs-5 mb-4">
+                        “Unsecured loans are monetary loans that are not secured
+                        against the borrower's assets.”
+                      </p>
+                      <img
+                        class="mb-4"
+                        src="assets/img/happycustomer_one.svg"
+                        alt="happy-customer" />
+                      <div class="happycustomer_info">
+                        <h4 class="fs-4 fw-medium text_clr_black_1b">
+                          Melanie L.
+                        </h4>
+
+                        <p class="fs_14 text_clr_gray_60">Founder of Parkio</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="hc_slider_item text-center">
+                      <p class="text_clr_gray_60 f_syne fs-5 mb-4">
+                        “Unsecured loans are monetary loans that are not secured
+                        against the borrower's assets.”
+                      </p>
+                      <img
+                        class="mb-4"
+                        src="assets/img/happycustomer_one.svg"
+                        alt="happy-customer" />
+                      <div class="happycustomer_info">
+                        <h4 class="fs-4 fw-medium text_clr_black_1b">
+                          Melanie L.
+                        </h4>
+
+                        <p class="fs_14 text_clr_gray_60">Founder of Parkio</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- happy customer /-end -->
+
+      <!-- faq -->
+      <section id="faq" class="section_padding">
+        <div class="container">
+          <div class="section_heading mb-5 text-center">
+            <h2 class="text-black fs_40 f_syne mb-4 fw-bold">
+              Frequently Asked Questions
+            </h2>
+            <p class="text_clr_gray_60 fs_18 fw-normal">
+              This is where all the answers to your questions are.
+            </p>
+          </div>
+          <div class="faq_accordion_wrapper">
+            <div class="accordionItem mb-4" onclick="toggleAccordion(this)">
+              <h2
+                class="accordionTitle fs-4 fw-medium text-black d-flex justify-content-between">
+                What information should be included in a real estate listing?
+                <span class="icon_wrapper">
+                  <span class="plus_icon">
+                    <img src="assets/img/plus-icon.svg" alt="" />
+                  </span>
+                  <span class="minus_icon">
+                    <img src="assets/img/close-icon.svg" alt="" />
+                  </span>
+                </span>
+              </h2>
+              <div class="accordionContent">
+                <p class="fs_18 fw-normal text_clr_gray_63">
+                  While it's not mandatory, having a real estate agent can
+                  simplify the process, help with pricing, marketing,
+                  negotiations, and paperwork.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordionItem mb-4" onclick="toggleAccordion(this)">
+              <h2
+                class="accordionTitle fs-4 fw-medium text-black d-flex justify-content-between">
+                Do I need a real estate agent to sell my property?
+                <span class="icon_wrapper">
+                  <span class="plus_icon">
+                    <img src="assets/img/plus-icon.svg" alt="" />
+                  </span>
+                  <span class="minus_icon">
+                    <img src="assets/img/close-icon.svg" alt="" />
+                  </span>
+                </span>
+              </h2>
+              <div class="accordionContent">
+                <p class="fs_18 fw-normal text_clr_gray_63">
+                  While it's not mandatory, having a real estate agent can
+                  simplify the process, help with pricing, marketing,
+                  negotiations, and paperwork.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordionItem mb-4" onclick="toggleAccordion(this)">
+              <h2
+                class="accordionTitle fs-4 fw-medium text-black d-flex justify-content-between">
+                Will I get lifetime updates?
+                <span class="icon_wrapper">
+                  <span class="plus_icon">
+                    <img src="assets/img/plus-icon.svg" alt="" />
+                  </span>
+                  <span class="minus_icon">
+                    <img src="assets/img/close-icon.svg" alt="" />
+                  </span>
+                </span>
+              </h2>
+              <div class="accordionContent">
+                <p class="fs_18 fw-normal text_clr_gray_63">
+                  While it's not mandatory, having a real estate agent can
+                  simplify the process, help with pricing, marketing,
+                  negotiations, and paperwork.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordionItem mb-4" onclick="toggleAccordion(this)">
+              <h2
+                class="accordionTitle fs-4 fw-medium text-black d-flex justify-content-between">
+                Can I use the Landify UI kit for a client’s end product?
+                <span class="icon_wrapper">
+                  <span class="plus_icon">
+                    <img src="assets/img/plus-icon.svg" alt="" />
+                  </span>
+                  <span class="minus_icon">
+                    <img src="assets/img/close-icon.svg" alt="" />
+                  </span>
+                </span>
+              </h2>
+              <div class="accordionContent">
+                <p class="fs_18 fw-normal text_clr_gray_63">
+                  While it's not mandatory, having a real estate agent can
+                  simplify the process, help with pricing, marketing,
+                  negotiations, and paperwork.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordionItem mb-4" onclick="toggleAccordion(this)">
+              <h2
+                class="accordionTitle fs-4 fw-medium text-black d-flex justify-content-between">
+                Do you have a free trial of Landify?
+                <span class="icon_wrapper">
+                  <span class="plus_icon">
+                    <img src="assets/img/plus-icon.svg" alt="" />
+                  </span>
+                  <span class="minus_icon">
+                    <img src="assets/img/close-icon.svg" alt="" />
+                  </span>
+                </span>
+              </h2>
+              <div class="accordionContent">
+                <p class="fs_18 fw-normal text_clr_gray_63">
+                  While it's not mandatory, having a real estate agent can
+                  simplify the process, help with pricing, marketing,
+                  negotiations, and paperwork.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq -/end -->
 
       <!-- footer -->
       <footer class="bg_clr_black_17">
@@ -639,7 +1772,8 @@
 
     <!-- JavaScript Libraries -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
     <!-- Template Javascript -->
